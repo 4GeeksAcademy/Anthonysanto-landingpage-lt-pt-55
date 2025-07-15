@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Cards = () => {
   return (
     <>
-      <div className="container d-flex justify-content-center">
+      <div className="container d-flex flex-wrap justify-content-center">
         {[...Array(4)].map((_, i) => (
           <div key={i} className="card mx-2" style={{ width: "18rem", minHeight: "30rem" }}>
             <img src={rigoImage} className="card-img-top" alt="..." />
